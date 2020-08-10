@@ -1,4 +1,4 @@
-# vuejs-template
+# VueJS app
 
 ## Project setup
 
