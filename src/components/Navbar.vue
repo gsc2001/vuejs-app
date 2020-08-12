@@ -8,6 +8,11 @@
                 <span>App</span>
             </v-toolbar-title>
             <v-spacer></v-spacer>
+            <div >
+                <router-link  to="/"> <span class="links"> Home      | </span> </router-link>
+                <router-link to="/about"> <span class="links"> About </span> </router-link>
+            </div>
+             <v-spacer></v-spacer>
             <v-btn flat color="grey">
                 <span>Sign Out</span>
             </v-btn>
@@ -39,4 +44,12 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+
+.links{
+    color: white;
+    font-size: 2rem;
+    text-decoration-line: none;
+}
+
+</style>

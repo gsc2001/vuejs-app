@@ -1,7 +1,7 @@
 <template>
     <div class="home">
         <!-- text, font classes on vuetify -->
-        <Buttons></Buttons>
+        <Buttons/>
         
     </div>
 </template>
