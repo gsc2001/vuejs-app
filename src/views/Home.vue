@@ -1,19 +1,18 @@
 <template>
     <div class="home">
-        <!-- text, font classes on vuetify -->
-        <Buttons/>
-        
+        <img alt="Vue logo" src="../assets/logo.png" />
+        <HelloWorld msg="Welcome to Your Vue.js App" />
     </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import Buttons from '@/components/Buttons';
+import HelloWorld from '@/components/HelloWorld.vue';
 
 export default {
     name: 'Home',
     components: {
-        Buttons,
+        HelloWorld,
     },
 };
 </script>
